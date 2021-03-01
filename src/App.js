@@ -38,4 +38,5 @@ const mapStateToProps = (state) => {
   return { items: state.items }
 }
 
+//we want to connect our APP component to a slice of the store's state specified in mapStateToProps(). 
 export default connect(mapStateToProps)(App);
